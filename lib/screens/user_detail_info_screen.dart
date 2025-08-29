@@ -152,12 +152,6 @@ class _UserDetailInfoScreenState extends State<UserDetailInfoScreen> {
             title: Text('勤怠アプリ'),
             centerTitle: true,
             elevation: 0.0,
-            leading: IconButton(
-              icon: Icon(Icons.arrow_back),
-              onPressed: () {
-                context.pop();
-              },
-            ),
             actions: [
               //Menu button start -----------------------------------------
               IconButton(onPressed: (){
